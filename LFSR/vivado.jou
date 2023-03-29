@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar 29 11:42:20 2023
+# Process ID: 1008
+# Current directory: C:/Users/Anti-cheat-WIN10/Desktop/LFSR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2224 C:\Users\Anti-cheat-WIN10\Desktop\LFSR\LFSR.xpr
+# Log file: C:/Users/Anti-cheat-WIN10/Desktop/LFSR/vivado.log
+# Journal file: C:/Users/Anti-cheat-WIN10/Desktop/LFSR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Anti-cheat-WIN10/Desktop/LFSR/LFSR.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source LFSR_tb.tcl
+run all
+close_sim
